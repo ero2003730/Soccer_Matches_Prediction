@@ -9,6 +9,10 @@ Para a implementação do modelo, foram utilizados dados de campeonatos passados
 
 O avanço tecnológico reinventou as apostas esportivas, permitindo que torcedores realizem suas previsões através de sites e aplicativos, com o futebol sendo a modalidade mais apostada no país. De acordo com a UOL, o futebol responde por 93% do total de apostas, seguido pelo basquete (31%) e eSports (29%). Já o Estadão reporta que, desde 2018, o valor investido em apostas esportivas no Brasil gira em torno de 120-150 bilhões de reais por ano.
 
+# **Base de Dados**
+
+A base de dados para este projeto foi obtida de diversas fontes. A principal fonte de dados foi o site [Football UK](https://www.football.co.uk/), que forneceu informações sobre partidas disputadas e odds. Informações adicionais sobre as posições das equipes foram adquiridas do site da Confederação Brasileira de Futebol [CBF](https://www.cbf.com.br/). Também recorremos ao [Transfermarkt](https://www.transfermarkt.com.br/) para obter dados como valores de mercado e posições da equipe por rodada. Além disso, realizamos engenharia de dados para adicionar algumas colunas aos nossos dados.
+
 # **Resultados obtidos**
 
 O desempenho do modelo variou de 2015 a 2023. Em 2015, o modelo teve dificuldade em prever vitórias da equipe visitante, resultando em uma precisão de 57,14%. Houve melhorias em 2016 com uma precisão de 61,90%, mas ainda com dificuldades na previsão da equipe visitante.
